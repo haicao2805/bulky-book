@@ -10,3 +10,6 @@ D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.dll
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\ref\BulkyBook.DataAccess.dll
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.pdb
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Models.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Models.pdb
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csproj.CopyComplete

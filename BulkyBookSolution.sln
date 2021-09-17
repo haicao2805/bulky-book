@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyBook", "BulkyBook\Bulk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyBook.DataAccess", "BulkyBook.DataAccess\BulkyBook.DataAccess.csproj", "{072CAC57-42D7-45A4-B04B-D64BDA4BD352}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyBook.Models", "BulkyBook.Models\BulkyBook.Models.csproj", "{138DBD10-1A3F-4179-B77D-0C08463CA063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{072CAC57-42D7-45A4-B04B-D64BDA4BD352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072CAC57-42D7-45A4-B04B-D64BDA4BD352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072CAC57-42D7-45A4-B04B-D64BDA4BD352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138DBD10-1A3F-4179-B77D-0C08463CA063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138DBD10-1A3F-4179-B77D-0C08463CA063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138DBD10-1A3F-4179-B77D-0C08463CA063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138DBD10-1A3F-4179-B77D-0C08463CA063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

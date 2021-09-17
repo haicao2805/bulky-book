@@ -394,3 +394,5 @@ D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Bulk
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\ref\BulkyBook.dll
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\BulkyBook.pdb
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\BulkyBook.genruntimeconfig.cache
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\bin\Debug\net5.0\BulkyBook.Models.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\bin\Debug\net5.0\BulkyBook.Models.pdb
