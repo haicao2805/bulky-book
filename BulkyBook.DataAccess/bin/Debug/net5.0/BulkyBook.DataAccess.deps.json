@@ -9,6 +9,7 @@
       "BulkyBook.DataAccess/1.0.0": {
         "dependencies": {
           "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
@@ -1103,6 +1104,11 @@
         "runtime": {
           "BulkyBook.Models.dll": {}
         }
+      },
+      "BulkyBook.Utility/1.0.0": {
+        "runtime": {
+          "BulkyBook.Utility.dll": {}
+        }
       }
     }
   },
@@ -1806,6 +1812,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "BulkyBook.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BulkyBook.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
