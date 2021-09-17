@@ -1863,6 +1863,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
@@ -1882,6 +1883,16 @@
         },
         "runtime": {
           "bin/placeholder/BulkyBook.Models.dll": {}
+        }
+      },
+      "BulkyBook.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
         }
       }
     }
@@ -6743,12 +6754,18 @@
       "type": "project",
       "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
       "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
+    },
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "msbuildProject": "../BulkyBook.Utility/BulkyBook.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "BulkyBook.DataAccess >= 1.0.0",
       "BulkyBook.Models >= 1.0.0",
+      "BulkyBook.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.9",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.9",
@@ -6789,6 +6806,9 @@
             },
             "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj": {
               "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            },
+            "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }
