@@ -1,0 +1,12 @@
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.deps.json
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\ref\BulkyBook.DataAccess.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.pdb
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csproj.AssemblyReference.cache
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.AssemblyInfo.cs
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\ref\BulkyBook.DataAccess.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.pdb
