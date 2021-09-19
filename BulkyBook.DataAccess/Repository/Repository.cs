@@ -1,5 +1,5 @@
 ﻿using BulkyBook.DataAccess.Data;
-using BulkyBook.DataAccess.Repository.IRepository;
+using BulkyBook.DataAccess.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -74,7 +74,7 @@ namespace BulkyBook.DataAccess.Repository
 
         public void Remove(int id)
         {
-            var entity = DbSet.First(id);
+            var entity = DbSet.Find(id);
             DbSet.Remove(entity);
         }
 

@@ -5,9 +5,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository.IRepository
+namespace BulkyBook.DataAccess.Repository.Interface
 {
-    interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         T Get(int id);
 

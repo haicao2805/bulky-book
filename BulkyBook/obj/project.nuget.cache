@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "La7svYcsEJ5QuNvoJRAQ6uv5UtYpWBJ52MvyaKV0/ALu8ud2Crc2xkP7A8CgbwMEddR3S5lN9ViXfXSpDyF1mw==",
+  "dgSpecHash": "XM5JUy1KUp0gt8Ooa+QG1PopPwn5L1/O6FFUVthrkFJmzOsSrJm+/6yPS7ahTOoqfXvionu08RcefGhmcrxzdQ==",
   "success": true,
   "projectFilePath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook\\BulkyBook.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HaiCao\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",

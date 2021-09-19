@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ysbPhEsiNo9QXCEHt5ygSzRRqtWS8kmpHJq17kbH0WDPLT+mOU96CfWEGfW/Ea+GZUpAnrmx+1+MeuxOUFWFBA==",
+  "dgSpecHash": "HHMzDcX8sJRV8PKzhreLcGNf5YzkfsR/Fh8Pnx9bSfpTDWi73rNsKmA/lVPy8Ebryu7f+QdeD8cUpuUoaCQGeA==",
   "success": true,
   "projectFilePath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HaiCao\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
     "C:\\Users\\HaiCao\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.9.nupkg.sha512",
