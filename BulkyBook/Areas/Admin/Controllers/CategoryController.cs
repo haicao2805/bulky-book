@@ -25,7 +25,7 @@ namespace BulkyBook.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)
         {
             Category category = new Category();
-            if (id == 0)
+            if (id == null)
             {
                 return View(category);
             }
@@ -45,7 +45,7 @@ namespace BulkyBook.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (category.CategoryId == 0)
+                if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
                 }

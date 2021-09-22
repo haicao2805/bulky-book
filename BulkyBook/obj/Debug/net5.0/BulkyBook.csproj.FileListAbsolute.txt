@@ -451,3 +451,5 @@ D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razo
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_CreateOrBackButton.cshtml.g.cs
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_EditOrBackButton.cshtml.g.cs
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
