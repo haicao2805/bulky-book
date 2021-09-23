@@ -15,14 +15,15 @@ namespace BulkyBook.DataAccess.Repository
         public CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
+            DbSet = _db.Category;
         }
 
         public void Update(Category category)
         {
-            var obj = _db.Category.FirstOrDefault(item => item.CategoryId == category.CategoryId);
+            var obj = DbSet.FirstOrDefault(item => item.Id == category.Id);
             if (obj != null)
             {
-                category.Name = obj.Name;
+                obj.Name = category.Name;
                 _db.SaveChanges();
             }
         }
