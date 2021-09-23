@@ -13,5 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: after push code to master, run project
-        run: cd ..
-             dotnet run
+        run: |
+              ls
+              dotnet run
