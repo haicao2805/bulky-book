@@ -4,8 +4,13 @@ on:
     branches:
       - "master"
 jobs:
-  my-job:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: after push code to master, print "hello world"
         run: echo "hello world"
+  run-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: after push code to master, run run-project
+        run: dotnet run

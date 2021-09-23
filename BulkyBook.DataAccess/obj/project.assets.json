@@ -8496,11 +8496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectUniqueName": "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
       "projectName": "BulkyBook.DataAccess",
-      "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectPath": "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
       "packagesPath": "C:\\Users\\HaiCao\\.nuget\\packages\\",
-      "outputPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\obj\\",
+      "outputPath": "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HaiCao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8517,11 +8517,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Models\\BulkyBook.Models.csproj"
             },
-            "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "d:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }
