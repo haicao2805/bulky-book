@@ -453,3 +453,7 @@ D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razo
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_EditOrBackButton.cshtml.g.cs
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs

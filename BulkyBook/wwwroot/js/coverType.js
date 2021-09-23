@@ -11,7 +11,7 @@ function loadTable() {
             "url": "/Admin/CoverType/GetAll"
         },
         "columns": [
-            { "data": "name", "width": "60%" },
+            { "data": "name", "width": "75%" },
             {
                 "data": "id",
                 "render": function (data) {
