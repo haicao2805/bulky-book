@@ -18,4 +18,3 @@ jobs:
       - name: after push code to master, run project
         run: |
               ls
-              dotnet run
