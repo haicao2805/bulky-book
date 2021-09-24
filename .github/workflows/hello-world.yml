@@ -9,8 +9,12 @@ jobs:
     steps:
       - name: after push code to master, print "hello world"
         run: echo "hello world"
+  
+  
   run-project:
     runs-on: ubuntu-latest
+    needs: hello-world
     steps:
-      - name: after push code to master, run run-project
-        run: dotnet run
+      - name: after push code to master, run project
+        run: |
+              dotnet run
