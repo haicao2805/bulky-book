@@ -13,6 +13,10 @@
             <h2>@title</h2>
         </div>
         <div class="col-8 pt-4">
+            @if (Model.Product.Id != 0)
+            {
+                <input type="hidden" asp-for="Product.Id" />
+            }
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Product.Title"></label>
@@ -98,7 +102,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(
-                       item => item.Product.Id,
+                       item => item.Product.CategoryId,
                        Model.CategoryList,
                        "--Select a category--",
                        new { @class = "form-control" }
@@ -113,7 +117,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(
-                       item => item.Product.Id,
+                       item => item.Product.CoverTypeId,
                        Model.CoverTypeList,
                        "--Select a cover type--",
                        new { @class = "form-control" }
@@ -151,13 +155,19 @@
                 </div>
             </div>
         </div>
+        @if (Model.Product.Id != 0)
+        {
+            <div class="col-3 offset-1 p-4">
+                <img src="@Model.Product.ImageUrl" width="100%" style="border: 1px solid #bbb999" />
+            </div>
+        }
     </div>
 </form>
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
 
-    <script src="https://cdn.tiny.cloud/1/rrui5o88eg9n3wu05emigt2ugrkthbv5hs36s4jqmeg9nz6i/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/rrui5o88eg9n3wu05emigt2ugrkthbv5hs36s4jqmeg9nz6i/tinymce/5/tinymce.min.js"></script>
 
     <script>
         tinymce.init({
