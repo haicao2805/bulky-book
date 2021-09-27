@@ -17,5 +17,9 @@ jobs:
     steps:
       - name: after push code to master, run project
         run: |
+<<<<<<< HEAD
               cd
               dotnet run
+=======
+              ls
+>>>>>>> 2eb9a63e8361daa07b89ed8a9036bfade077c209
