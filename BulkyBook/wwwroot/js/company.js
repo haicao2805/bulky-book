@@ -8,7 +8,7 @@ function loadTable() {
     dataTable = $("#tblData").DataTable({
         "ajax": {
             "type": "GET",
-            "url": "/Admin/BookStore/GetAll"
+            "url": "/Admin/Company/GetAll"
         },
         "columns": [
             { "data": "name", "width": "11%" },
@@ -34,11 +34,11 @@ function loadTable() {
                 "render": function (data) {
                     return `
                         <div class="text-center">
-                            <a href="/Admin/BookStore/Upsert/${data}" class="btn btn-success" style="cursor:pointer;">
+                            <a href="/Admin/Company/Upsert/${data}" class="btn btn-success" style="cursor:pointer;">
                                 Edit
                             </a>
 
-                            <a onclick=Delete("/Admin/BookStore/Delete/${data}") class="btn btn-danger" style="cursor:pointer;">
+                            <a onclick=Delete("/Admin/Company/Delete/${data}") class="btn btn-danger" style="cursor:pointer;">
                                 Delete
                             </a>
                         </div>

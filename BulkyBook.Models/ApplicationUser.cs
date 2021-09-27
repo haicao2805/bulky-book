@@ -17,15 +17,16 @@ namespace BulkyBook.Models
         public string StreetAddress { get; set; }
 
         public string City { get; set; }
+        public string State { get; set; }
 
         public string PostalCode { get; set; }
 
         [NotMapped]
         public string Role { get; set; }
 
-        public int? BookStoreId { get; set; }
+        public int? CompanyId { get; set; }
 
-        [ForeignKey("BookStoreId")]
-        public BookStore BookStore { get; set; }
+        [ForeignKey("CompanyId")]
+        public Company Company { get; set; }
     }
 }

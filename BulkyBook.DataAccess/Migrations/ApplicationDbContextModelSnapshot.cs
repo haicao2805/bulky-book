@@ -19,7 +19,24 @@ namespace BulkyBook.DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("BulkyBook.Models.BookStore", b =>
+            modelBuilder.Entity("BulkyBook.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Category");
+                });
+
+            modelBuilder.Entity("BulkyBook.Models.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -51,23 +68,6 @@ namespace BulkyBook.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("BookStore");
-                });
-
-            modelBuilder.Entity("BulkyBook.Models.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("BulkyBook.Models.CoverType", b =>
@@ -349,11 +349,11 @@ namespace BulkyBook.DataAccess.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<int?>("BookStoreId")
-                        .HasColumnType("int");
-
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -362,10 +362,13 @@ namespace BulkyBook.DataAccess.Migrations
                     b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("BookStoreId");
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -442,11 +445,11 @@ namespace BulkyBook.DataAccess.Migrations
 
             modelBuilder.Entity("BulkyBook.Models.ApplicationUser", b =>
                 {
-                    b.HasOne("BulkyBook.Models.BookStore", "BookStore")
+                    b.HasOne("BulkyBook.Models.Company", "Company")
                         .WithMany()
-                        .HasForeignKey("BookStoreId");
+                        .HasForeignKey("CompanyId");
 
-                    b.Navigation("BookStore");
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

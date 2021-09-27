@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Models
 {
-    public class BookStore
+    public class Company
     {
         [Required]
         public int Id { get; set; }

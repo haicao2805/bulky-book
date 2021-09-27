@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace BulkyBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class BookStoreController : Controller
+    public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public BookStoreController(IUnitOfWork unitOfWork)
+        public CompanyController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -24,57 +24,57 @@ namespace BulkyBook.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)
         {
-            BookStore bookStore = new BookStore();
+            Company company = new Company();
             if (id == null)
             {
-                return View(bookStore);
+                return View(company);
             }
 
-            bookStore = _unitOfWork.BookStore.Get(id.GetValueOrDefault());
-            if (bookStore == null)
+            company = _unitOfWork.Company.Get(id.GetValueOrDefault());
+            if (company == null)
             {
                 return NotFound();
             }
 
-            return View(bookStore);
+            return View(company);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(BookStore bookStore)
+        public IActionResult Upsert(Company company)
         {
             if (ModelState.IsValid)
             {
-                if (bookStore.Id == 0)
+                if (company.Id == 0)
                 {
-                    _unitOfWork.BookStore.Add(bookStore);
+                    _unitOfWork.Company.Add(company);
                 }
                 else
                 {
-                    _unitOfWork.BookStore.Update(bookStore);
+                    _unitOfWork.Company.Update(company);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(bookStore);
+            return View(company);
         }
 
         #region API Call
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allBookStores = _unitOfWork.BookStore.GetAll();
+            var allCompanies = _unitOfWork.Company.GetAll();
             return Json(new
             {
-                data = allBookStores
+                data = allCompanies
             });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var obj = _unitOfWork.BookStore.Get(id);
+            var obj = _unitOfWork.Company.Get(id);
             if (obj == null)
             {
                 return Json(new
@@ -83,7 +83,7 @@ namespace BulkyBook.Areas.Admin.Controllers
                     message = "Error while deleting"
                 });
             }
-            _unitOfWork.BookStore.Remove(obj);
+            _unitOfWork.Company.Remove(obj);
             _unitOfWork.Save();
             return Json(new
             {
