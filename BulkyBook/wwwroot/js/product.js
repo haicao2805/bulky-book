@@ -31,7 +31,7 @@ function loadTable() {
                         </div>
                     `;
                 },
-                "width": "40%"
+                "width": "25%"
             }
         ],
     });

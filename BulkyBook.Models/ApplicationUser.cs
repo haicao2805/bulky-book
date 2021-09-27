@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace BulkyBook.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        [Required]
         public string Name { get; set; }
 
         public string StreetAddress { get; set; }
@@ -21,5 +23,9 @@ namespace BulkyBook.Models
         [NotMapped]
         public string Role { get; set; }
 
+        public int? BookStoreId { get; set; }
+
+        [ForeignKey("BookStoreId")]
+        public BookStore BookStore { get; set; }
     }
 }

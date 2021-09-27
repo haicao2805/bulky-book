@@ -23,7 +23,7 @@ namespace BulkyBook.DataAccess.Migrations
                 name: "Name",
                 table: "AspNetUsers",
                 type: "nvarchar(max)",
-                nullable: true);
+                nullable: false);
 
             migrationBuilder.AddColumn<string>(
                 name: "PostalCode",
