@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = BulkyBook.Utility
-build_property.ProjectDir = D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.Utility\
+build_property.ProjectDir = C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\

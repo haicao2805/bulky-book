@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {}
+    "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {}
   },
   "projects": {
-    "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+    "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "projectUniqueName": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
         "projectName": "BulkyBook.Utility",
-        "projectPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
-        "packagesPath": "C:\\Users\\HaiCao\\.nuget\\packages\\",
-        "outputPath": "D:\\MyLearning\\ASP.NET Core MVC\\BulkyBookSolution\\BulkyBook.Utility\\obj\\",
+        "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "packagesPath": "C:\\Users\\haicao\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HaiCao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

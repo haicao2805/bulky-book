@@ -72,19 +72,12 @@ namespace BulkyBook.Areas.Identity.Pages.Account
 
             [Required]
             public string Name { get; set; }
-
             public string StreetAddress { get; set; }
-
             public string City { get; set; }
-
             public string State { get; set; }
-
             public string PostalCode { get; set; }
-
             public string PhoneNumber { get; set; }
-
             public string Role { get; set; }
-
             public int? CompanyId { get; set; }
         }
 
@@ -135,7 +128,7 @@ namespace BulkyBook.Areas.Identity.Pages.Account
                         await _roleManager.CreateAsync(new IdentityRole(Role.User_Company));
                     }
 
-                    await _userManager.AddToRoleAsync(user, Role.Admin);
+                    await _userManager.AddToRoleAsync(user, Role.Employee);
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     //code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     //var callbackUrl = Url.Page(

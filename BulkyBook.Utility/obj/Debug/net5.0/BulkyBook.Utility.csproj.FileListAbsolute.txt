@@ -10,3 +10,15 @@ D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.Utility\obj\Debug\net
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.Utility\obj\Debug\net5.0\ref\BulkyBook.Utility.dll
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.pdb
 D:\MyLearning\ASP.NET Core MVC\BulkyBookSolution\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.csproj.AssemblyReference.cache
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\bin\Debug\net5.0\BulkyBook.Utility.deps.json
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\bin\Debug\net5.0\BulkyBook.Utility.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\bin\Debug\net5.0\ref\BulkyBook.Utility.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\bin\Debug\net5.0\BulkyBook.Utility.pdb
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.csproj.AssemblyReference.cache
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.AssemblyInfoInputs.cache
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.AssemblyInfo.cs
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.csproj.CoreCompileInputs.cache
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\ref\BulkyBook.Utility.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook.Utility\obj\Debug\net5.0\BulkyBook.Utility.pdb

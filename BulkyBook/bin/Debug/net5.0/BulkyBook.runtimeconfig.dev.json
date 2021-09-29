@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\HaiCao\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\HaiCao\\.nuget\\packages"
+      "C:\\Users\\haicao\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\haicao\\.nuget\\packages"
     ]
   }
 }

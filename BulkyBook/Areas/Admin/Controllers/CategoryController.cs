@@ -64,7 +64,7 @@ namespace BulkyBook.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allCategories = _unitOfWork.Category.GetAll();
+            var allCategories = _unitOfWork.Category.GetAll(orderBy: query => query.OrderBy(c => c.Name));
             return Json(new
             {
                 data = allCategories
