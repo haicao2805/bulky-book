@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Utility
 {
-    public class Role
+    public class UserRole
     {
         public const string User_Individual = "Individual Customer";
         public const string User_Company = "Company Customer";

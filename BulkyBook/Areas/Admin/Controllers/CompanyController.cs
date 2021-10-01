@@ -1,5 +1,7 @@
 ﻿using BulkyBook.DataAccess.Repository.Interface;
 using BulkyBook.Models;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ using System.Threading.Tasks;
 namespace BulkyBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = UserRole.Admin + "," + UserRole.Employee)]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

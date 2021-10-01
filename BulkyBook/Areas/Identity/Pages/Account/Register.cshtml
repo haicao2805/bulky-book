@@ -59,7 +59,7 @@
                 <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
             </div>
 
-            @if (User.IsInRole(Role.Admin))
+            @if (User.IsInRole(UserRole.Admin))
             {
                 <div class="form-group">
                     <label asp-for="Input.Role"></label>

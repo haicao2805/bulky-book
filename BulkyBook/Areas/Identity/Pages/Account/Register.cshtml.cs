@@ -97,7 +97,7 @@ namespace BulkyBook.Areas.Identity.Pages.Account
                     Value = c.Id.ToString()
 
                 }),
-                RoleList = _roleManager.Roles.Where(r => r.Name != Role.User_Individual).Select(r => new SelectListItem
+                RoleList = _roleManager.Roles.Where(r => r.Name != UserRole.User_Individual).Select(r => new SelectListItem
                 {
                     Text = r.Name,
                     Value = r.Name
@@ -132,33 +132,33 @@ namespace BulkyBook.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    if (!await _roleManager.RoleExistsAsync(Role.Admin))
+                    if (!await _roleManager.RoleExistsAsync(UserRole.Admin))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(Role.Admin));
+                        await _roleManager.CreateAsync(new IdentityRole(UserRole.Admin));
                     }
-                    if (!await _roleManager.RoleExistsAsync(Role.Employee))
+                    if (!await _roleManager.RoleExistsAsync(UserRole.Employee))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(Role.Employee));
+                        await _roleManager.CreateAsync(new IdentityRole(UserRole.Employee));
                     }
-                    if (!await _roleManager.RoleExistsAsync(Role.User_Individual))
+                    if (!await _roleManager.RoleExistsAsync(UserRole.User_Individual))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(Role.User_Individual));
+                        await _roleManager.CreateAsync(new IdentityRole(UserRole.User_Individual));
                     }
-                    if (!await _roleManager.RoleExistsAsync(Role.User_Company))
+                    if (!await _roleManager.RoleExistsAsync(UserRole.User_Company))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(Role.User_Company));
+                        await _roleManager.CreateAsync(new IdentityRole(UserRole.User_Company));
                     }
 
                     //await _userManager.AddToRoleAsync(user, Role.Employee);
                     if(user.Role == null)
                     {
-                        await _userManager.AddToRoleAsync(user, Role.User_Individual);
+                        await _userManager.AddToRoleAsync(user, UserRole.User_Individual);
                     }
                     else
                     {
                         if(user.CompanyId > 0)
                         {
-                            await _userManager.AddToRoleAsync(user, Role.User_Company);
+                            await _userManager.AddToRoleAsync(user, UserRole.User_Company);
                         }
 
                         await _userManager.AddToRoleAsync(user, user.Role);

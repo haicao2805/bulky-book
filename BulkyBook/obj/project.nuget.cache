@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jyZZpdGjaGW3Nf//MEPEE9TlI8OeEVCgp02ISHvAdZx03oTNI2v9W+1M/PHYy7KmYT8QKtuTl982/VpLmYZheQ==",
+  "dgSpecHash": "LpTxFqrURNrJXE5A+SqJMiDUui+0Un+afquu4qYB0NVX9u6I5jtOygAjQeP1UezSnyfmpc4Bm3ElliDQB4C34w==",
   "success": true,
   "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\5.0.10\\microsoft.aspnetcore.authentication.facebook.5.0.10.nupkg.sha512",
+    "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.10\\microsoft.aspnetcore.authentication.google.5.0.10.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",
