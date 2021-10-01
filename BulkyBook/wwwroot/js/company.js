@@ -18,7 +18,7 @@ function loadTable() {
             { "data": "postalCode", "width": "11%" },
             { "data": "phoneNumber", "width": "11%" },
             {
-                "data": "isAuthorizedBookStore",
+                "data": "isAuthorized",
                 "render": function (data) {
                     if (data) {
                         return `<input type="checkbox" disabled checked />`;

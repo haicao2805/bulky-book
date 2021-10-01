@@ -18,21 +18,5 @@ namespace BulkyBook.DataAccess.Repository
             _db = db;
             DbSet = _db.BookStore;
         }
-
-        public void Update(Company company)
-        {
-            var obj = DbSet.FirstOrDefault(item => item.Id == company.Id);
-            if (obj != null)
-            {
-                obj.Name = company.Name;
-                obj.PhoneNumber = company.PhoneNumber;
-                obj.PostalCode = company.PostalCode;
-                obj.State = company.State;
-                obj.StreetAddress = company.StreetAddress;
-                obj.IsAuthorizedBookStore = company.IsAuthorizedBookStore;
-
-                _db.SaveChanges();
-            }
-        }
     }
 }

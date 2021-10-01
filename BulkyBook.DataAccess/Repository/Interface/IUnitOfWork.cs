@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +15,8 @@ namespace BulkyBook.DataAccess.Repository.Interface
         IProductRepository Product { get; }
         ICompanyRepository Company { get; }
         IApplicationUserRepository ApplicationUser { get; }
+        IIdentityRoleRepository IdentityRole { get; }
+        IIdentityUserRoleRepository IdentityUserRole { get; }
         ISP_Call SP_Call { get; }
 
         public void Save();

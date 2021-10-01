@@ -9,6 +9,5 @@ namespace BulkyBook.DataAccess.Repository.Interface
 {
     public interface IProductRepository : IRepository<Product>
     {
-        public void Update(Product product);
     }
 }

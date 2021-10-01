@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+zpImsjvyX3GKqhJ74cZxjpzbo+NRsbhOk5AgRGKjgENOXcOuHbpDVUTh18h9gnFSL58hZyAt3bhrjtLsSkobA==",
+  "dgSpecHash": "ohi8WopFJd2ZWR94tGwX27fR/Fux8QaVy/Dq+3EwhOmRoxyhm0A8NAcxFK+3kTEzR+a2RanObbEi/ILKYz+z2w==",
   "success": true,
   "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\haicao\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\haicao\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

@@ -998,3 +998,6 @@ C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\obj\Debug\net5.0\BulkyB
 C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\obj\Debug\net5.0\ref\BulkyBook.dll
 C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\obj\Debug\net5.0\BulkyBook.pdb
 C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\obj\Debug\net5.0\BulkyBook.genruntimeconfig.cache
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\bin\Debug\net5.0\MaterialDesignColors.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\bin\Debug\net5.0\MaterialDesignThemes.Wpf.dll
+C:\Data\MyLearning\ASP.NET Core MVC\bulky-book\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs

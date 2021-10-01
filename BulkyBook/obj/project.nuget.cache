@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ySyAlfKJ1teMyTLqf4KG73andB1656W7Ptxz6CgSoeuaZmo0vv9vsOc8irlcx3Eb6tnFzwL1uoT5/sT5iaCbWw==",
+  "dgSpecHash": "jyZZpdGjaGW3Nf//MEPEE9TlI8OeEVCgp02ISHvAdZx03oTNI2v9W+1M/PHYy7KmYT8QKtuTl982/VpLmYZheQ==",
   "success": true,
   "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haicao\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\haicao\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\haicao\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

@@ -30,5 +30,7 @@ namespace BulkyBook.DataAccess.Repository.Interface
 
         void Remove(IEnumerable<T> entities);
 
+        void Update(T entity);
+
     }
 }

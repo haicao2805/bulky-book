@@ -25,6 +25,6 @@ namespace BulkyBook.Models
 
         public string PhoneNumber { get; set; }
 
-        public bool IsAuthorizedBookStore { get; set; }
+        public bool IsAuthorized { get; set; }
     }
 }

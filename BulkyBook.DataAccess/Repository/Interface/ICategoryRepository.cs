@@ -9,6 +9,5 @@ namespace BulkyBook.DataAccess.Repository.Interface
 {
     public interface ICategoryRepository : IRepository<Category>
     {
-        public void Update(Category category);
     }
 }

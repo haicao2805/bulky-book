@@ -9,6 +9,5 @@ namespace BulkyBook.DataAccess.Repository.Interface
 {
     public interface ICompanyRepository : IRepository<Company>
     {
-        public void Update(Company company);
     }
 }

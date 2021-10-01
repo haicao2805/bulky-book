@@ -17,15 +17,5 @@ namespace BulkyBook.DataAccess.Repository
             _db = db;
             DbSet = _db.Category;
         }
-
-        public void Update(Category category)
-        {
-            var obj = DbSet.FirstOrDefault(item => item.Id == category.Id);
-            if (obj != null)
-            {
-                obj.Name = category.Name;
-                _db.SaveChanges();
-            }
-        }
     }
 }

@@ -17,14 +17,5 @@ namespace BulkyBook.DataAccess.Repository
             _db = db;
             DbSet = _db.CoverType;
         }
-        public void Update(CoverType coverType)
-        {
-            var obj = DbSet.FirstOrDefault(item => item.Id == coverType.Id);
-            if (obj != null)
-            {
-                obj.Name = coverType.Name;
-                _db.SaveChanges();
-            }
-        }
     }
 }
