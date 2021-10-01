@@ -17,6 +17,9 @@ namespace BulkyBook.DataAccess.Repository.Interface
         IApplicationUserRepository ApplicationUser { get; }
         IIdentityRoleRepository IdentityRole { get; }
         IIdentityUserRoleRepository IdentityUserRole { get; }
+        IShoppingCartRepository ShoppingCart { get; }
+        IOrderDetailRepository OrderDetail { get; }
+        IOrderHeaderRepository OrderHeader { get; }
         ISP_Call SP_Call { get; }
 
         public void Save();
