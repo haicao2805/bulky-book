@@ -16,7 +16,7 @@ namespace BulkyBook.DataAccess.Repository
         public CompanyRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
-            DbSet = _db.BookStore;
+            DbSet = _db.Company;
         }
     }
 }
