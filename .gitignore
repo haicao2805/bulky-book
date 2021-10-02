@@ -3,3 +3,4 @@
 **/obj
 /frontend/markup/node_modules/
 appsettings.json
+appsettings.Development.json
