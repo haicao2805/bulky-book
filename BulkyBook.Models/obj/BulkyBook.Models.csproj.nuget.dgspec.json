@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {}
+    "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {}
   },
   "projects": {
-    "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+    "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectUniqueName": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
         "projectName": "BulkyBook.Models",
-        "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
         "packagesPath": "C:\\Users\\haicao\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\obj\\",
+        "outputPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haicao\\AppData\\Roaming\\NuGet\\NuGet.Config",

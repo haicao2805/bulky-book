@@ -1,1 +1,5 @@
-appsettings.*
+**/.vs
+**/bin
+**/obj
+/frontend/markup/node_modules/
+appsettings.json

@@ -10332,11 +10332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
+      "projectUniqueName": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
       "projectName": "BulkyBook",
-      "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
+      "projectPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
       "packagesPath": "C:\\Users\\haicao\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\obj\\",
+      "outputPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\haicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10353,14 +10353,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
-              "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+            "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
             },
-            "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj"
             },
-            "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }

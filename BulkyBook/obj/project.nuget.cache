@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LpTxFqrURNrJXE5A+SqJMiDUui+0Un+afquu4qYB0NVX9u6I5jtOygAjQeP1UezSnyfmpc4Bm3ElliDQB4C34w==",
+  "dgSpecHash": "DJmLpFMm+QNzoe9ELsvcVUdN1+OTzviejYMbdpbHu8nJ27UJoUJKg5Fi9d0mtetQY99LzM/y/Tj3p+w/c1fH3g==",
   "success": true,
-  "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
+  "projectFilePath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook\\BulkyBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haicao\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
