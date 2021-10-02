@@ -11,6 +11,7 @@ namespace BulkyBook.Utility
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
+            Console.WriteLine(123);
             throw new NotImplementedException();
         }
     }
