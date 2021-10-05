@@ -25,7 +25,7 @@ namespace BulkyBook.Models
         public DateTime ShippingDate { get; set; }
 
         [Required]
-        public double Total { get; set; }
+        public double OrderTotal { get; set; }
 
         public string TrackingNumber { get; set; }
         public string Carrier { get; set; }
