@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6/8fG6xJ7EQRyqkji9yqtHF1gCdz42+ysn5p3ZcwI3JJjwQvRvkQw5NpVdo/Y5H13lTxv+9Skr6lyQI9j9nCvg==",
+  "dgSpecHash": "ohi8WopFJd2ZWR94tGwX27fR/Fux8QaVy/Dq+3EwhOmRoxyhm0A8NAcxFK+3kTEzR+a2RanObbEi/ILKYz+z2w==",
   "success": true,
-  "projectFilePath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
+  "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.Models\\BulkyBook.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haicao\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",

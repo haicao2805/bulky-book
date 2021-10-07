@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mr+B5KuMGK5dZh3oWlS0Flla8wk0WXAWWJnFs7S7CjMUXJNdjNIvJX/7G4mx9spPFXVsWGo77DavMMbjIfO2AA==",
+  "dgSpecHash": "KQZQEIyAgCr7rohdwWTcbeJKeYZAN4YLaSrqn1iZAqV7qEe3UvfO7Zl3oSEundkKEJU4cFVHJGCM5CIdslCYzg==",
   "success": true,
-  "projectFilePath": "c:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+  "projectFilePath": "C:\\Data\\MyLearning\\ASP.NET Core MVC\\bulky-book\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haicao\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\haicao\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
